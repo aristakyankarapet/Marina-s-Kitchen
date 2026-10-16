@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="208" viewBox="0 0 160 208">
+  <!-- Seamless carpet field tile: stepped medallion, stars at the corners -->
+  <rect width="160" height="208" fill="#A8262B"/>
+  <path d="M76 64 L84 64 L84 72 L92 72 L92 80 L100 80 L100 88 L108 88 L108 96 L116 96 L116 112 L108 112 L108 120 L100 120 L100 128 L92 128 L92 136 L84 136 L84 144 L76 144 L84 144 L76 144 L76 136 L68 136 L68 128 L60 128 L60 120 L52 120 L52 112 L44 112 L44 96 L52 96 L52 88 L60 88 L60 80 L68 80 L68 72 L76 72 L76 64 L84 64Z" fill="#1E2A4F"/>
+  <path d="M38 104 h-6 v-6 M122 104 h6 v6" fill="none" stroke="#1E2A4F" stroke-width="3"/>
+  <path d="M80 80 L104 104 L80 128 L56 104Z" fill="#F1E3C6"/>
+  <path d="M80 88 L96 104 L80 120 L64 104Z" fill="#A8262B"/>
+  <path d="M80 97 L87 104 L80 111 L73 104Z" fill="#1E2A4F"/>
+  <rect x="77" y="101" width="6" height="6" fill="#D9A441"/>
+  <rect x="-8" y="-8" width="16" height="16" fill="#D9A441"/><rect x="-8" y="-8" width="16" height="16" fill="#D9A441" transform="rotate(45 0 0)"/><rect x="-3" y="-3" width="6" height="6" fill="#A8262B"/>
+  <rect x="-8" y="200" width="16" height="16" fill="#D9A441"/><rect x="-8" y="200" width="16" height="16" fill="#D9A441" transform="rotate(45 0 208)"/><rect x="-3" y="205" width="6" height="6" fill="#A8262B"/>
+  <rect x="152" y="-8" width="16" height="16" fill="#D9A441"/><rect x="152" y="-8" width="16" height="16" fill="#D9A441" transform="rotate(45 160 0)"/><rect x="157" y="-3" width="6" height="6" fill="#A8262B"/>
+  <rect x="152" y="200" width="16" height="16" fill="#D9A441"/><rect x="152" y="200" width="16" height="16" fill="#D9A441" transform="rotate(45 160 208)"/><rect x="157" y="205" width="6" height="6" fill="#A8262B"/>
+  <path d="M22 98 h-6 v6 h6 v6 h-6" fill="none" stroke="#F1E3C6" stroke-width="2"/>
+  <path d="M146 98 h-6 v6 h6 v6 h-6" fill="none" stroke="#F1E3C6" stroke-width="2"/>
+</svg>

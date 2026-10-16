@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Շուտով — Marina's Kitchen</title>
+  <meta name="description" content="Marina's Kitchen — հայկական ավանդական խոհանոց, բաղադրատոմսեր և տեսանյութեր Մարինայից։">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600&family=Noto+Serif+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body data-page="upcoming" class="page-inner">
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Marina's Kitchen">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Գլխավոր</a>
+        <a href="cuisine.html" class="nav__link" data-i18n="nav.cuisine">Խոհանոց</a>
+        <a href="about.html" class="nav__link" data-i18n="nav.about">Մարինայի մասին</a>
+        <a href="upcoming.html" class="nav__link" data-i18n="nav.upcoming">Շուտով</a>
+        <a href="contact.html" class="nav__link" data-i18n="nav.contact">Կապ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="music" id="musicBtn" type="button" aria-pressed="false" aria-label="Music">
+          <svg class="music__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z"/></svg>
+        </button>
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="hy" type="button">ՀԱՅ</button>
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Coming soon: dishes Marina will cook next (04-06 are decided by a vote) -->
+    <section class="section section--dark" id="upcoming">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow eyebrow--light" data-i18n="upcoming.eyebrow">Շուտով մեր խոհանոցում</p>
+          <h2 class="section__title section__title--light" data-i18n="upcoming.title">Ինչ ենք պատրաստելու</h2>
+          <div class="divider" aria-hidden="true"><span></span></div>
+          <p class="section__lead section__lead--light" data-i18n="upcoming.lead">Ուտեստներ, որոնք շուտով կպատրաստենք միասին։</p>
+        </div>
+
+        <div class="upcoming">
+          <article class="upcoming__card upcoming__card--photo reveal">
+            <span class="upcoming__num">01</span>
+            <img class="upcoming__img" src="images/panrkhash.jpg" width="900" height="1200" loading="lazy" alt="Պանրխաշ՝ կավե ամանում, տապակած սոխով" data-i18n-alt="upcoming.panrkhash.alt">
+            <h3 class="upcoming__title" data-i18n="upcoming.panrkhash.title">Պանրխաշ</h3>
+            <p data-i18n="upcoming.panrkhash.text">Լավաշով, պանրով ու կարագով պատրաստվող ջերմ ու հյութալի ավանդական ուտեստ։</p>
+            <span class="upcoming__tag" data-i18n="upcoming.soon">Շուտով</span>
+          </article>
+          <article class="upcoming__card upcoming__card--photo reveal">
+            <span class="upcoming__num">02</span>
+            <img class="upcoming__img" src="images/ghapama.jpg" width="900" height="900" loading="lazy" alt="Ղափամա՝ դդում լցոնված բրնձով, չրերով և ընկույզով" data-i18n-alt="upcoming.ghapama.alt">
+            <h3 class="upcoming__title" data-i18n="upcoming.ghapama.title">Ղափամա</h3>
+            <p data-i18n="upcoming.ghapama.text">Դդում՝ լցոնված բրնձով, չրերով, ընկույզով և մեղրով։ Տոնական սեղանի զարդը։</p>
+            <span class="upcoming__tag" data-i18n="upcoming.soon">Շուտով</span>
+          </article>
+          <article class="upcoming__card upcoming__card--photo reveal">
+            <span class="upcoming__num">03</span>
+            <img class="upcoming__img" src="images/zhingyalov.jpg?v=2" width="900" height="900" loading="lazy" alt="Ժինգյալով հաց՝ լցոնված թարմ կանաչիով" data-i18n-alt="upcoming.zhingyalov.alt">
+            <h3 class="upcoming__title" data-i18n="upcoming.zhingyalov.title">Ժինգյալով հաց</h3>
+            <p data-i18n="upcoming.zhingyalov.text">Բարակ հաց՝ լցոնված տասնյակ տեսակի թարմ կանաչիով։</p>
+            <span class="upcoming__tag" data-i18n="upcoming.soon">Շուտով</span>
+          </article>
+          <article class="upcoming__card upcoming__card--vote reveal">
+            <span class="upcoming__num">04</span>
+            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
+            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
+            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
+            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
+          </article>
+          <article class="upcoming__card upcoming__card--vote reveal">
+            <span class="upcoming__num">05</span>
+            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
+            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
+            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
+            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
+          </article>
+          <article class="upcoming__card upcoming__card--vote reveal">
+            <span class="upcoming__num">06</span>
+            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
+            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
+            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
+            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+      <p class="footer__tagline" data-i18n="footer.tagline">Պատրաստված սիրով՝ հայկական ավանդույթներով։</p>
+      <p class="footer__copy footer__music">♪ <span data-i18n="footer.music">Երաժշտություն՝</span> Gorgeouz Beats – Kamancha</p>
+      <p class="footer__copy">© <span id="year"></span> Marina's Kitchen</p>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Background music (from Marina's video), loops softly -->
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="script.js?v=42"></script>
+</body>
+</html>

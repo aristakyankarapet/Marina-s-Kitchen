@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 48 32">
+  <!-- Armenian carpet border: stepped medallion between "running dog" edges -->
+  <rect width="48" height="32" fill="#1E2A4F"/>
+  <rect width="48" height="4" fill="#A8262B"/>
+  <rect y="28" width="48" height="4" fill="#A8262B"/>
+  <path d="M0 4 l4 4 l4 -4 M8 4 l4 4 l4 -4 M16 4 l4 4 l4 -4 M24 4 l4 4 l4 -4 M32 4 l4 4 l4 -4 M40 4 l4 4 l4 -4" fill="none" stroke="#F1E3C6" stroke-width="1.5"/>
+  <path d="M0 28 l4 -4 l4 4 M8 28 l4 -4 l4 4 M16 28 l4 -4 l4 4 M24 28 l4 -4 l4 4 M32 28 l4 -4 l4 4 M40 28 l4 -4 l4 4" fill="none" stroke="#F1E3C6" stroke-width="1.5"/>
+  <path d="M22 8 h4 v2 h2 v2 h2 v2 h2 v4 h-2 v2 h-2 v2 h-2 v2 h-4 v-2 h-2 v-2 h-2 v-2 h-2 v-4 h2 v-2 h2 v-2 h2z" fill="#A8262B"/>
+  <path d="M24 11 L29 16 L24 21 L19 16Z" fill="#F1E3C6"/>
+  <path d="M24 14 L26 16 L24 18 L22 16Z" fill="#1E2A4F"/>
+  <path d="M10 16 h4 M34 16 h4" stroke="#D9A441" stroke-width="2"/>
+  <path d="M0 12 L4 16 L0 20Z M48 12 L44 16 L48 20Z" fill="#D9A441"/>
+</svg>

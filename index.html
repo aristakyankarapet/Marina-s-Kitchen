@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marina's Kitchen — Հայկական ավանդական խոհանոց</title>
+  <meta name="description" content="Marina's Kitchen — հայկական ավանդական խոհանոց, բաղադրատոմսեր և տեսանյութեր Մարինայից։">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600&family=Noto+Serif+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body data-page="home">
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Marina's Kitchen">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Գլխավոր</a>
+        <a href="cuisine.html" class="nav__link" data-i18n="nav.cuisine">Խոհանոց</a>
+        <a href="about.html" class="nav__link" data-i18n="nav.about">Մարինայի մասին</a>
+        <a href="upcoming.html" class="nav__link" data-i18n="nav.upcoming">Շուտով</a>
+        <a href="contact.html" class="nav__link" data-i18n="nav.contact">Կապ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="music" id="musicBtn" type="button" aria-pressed="false" aria-label="Music">
+          <svg class="music__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z"/></svg>
+        </button>
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="hy" type="button">ՀԱՅ</button>
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="hanger hanger--left" aria-hidden="true"><div class="hanger__rug"></div></div>
+      <div class="hanger hanger--right" aria-hidden="true"><div class="hanger__rug"></div></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__emblem hero__anim" aria-hidden="true"></div>
+          <p class="eyebrow eyebrow--light hero__anim" data-i18n="hero.eyebrow">Հայկական ավանդական խոհանոց</p>
+          <h1 class="hero__title hero__anim">
+            <span data-i18n="hero.title1">Տան հարազատ համը՝</span><br>
+            <em data-i18n="hero.title2">թոնրի դարավոր ավանդույթով, հայկական հյուրընկալությամբ ու սիրով։</em>
+          </h1>
+          <div class="hero__buttons hero__anim">
+            <a href="cuisine.html" class="btn btn--gold" data-i18n="hero.cta1">Դիտել ճաշատեսակները</a>
+            <a href="upcoming.html" class="btn btn--outline" data-i18n="hero.cta2">Ինչ ենք պատրաստելու</a>
+          </div>
+        </div>
+        <figure class="hero__media">
+          <div class="hero__frame">
+            <img src="images/marina.jpg?v=2" width="1000" height="1336" alt="Մարինան՝ հայկական գյուղի և լեռների ֆոնին" data-i18n-alt="hero.photoAlt">
+          </div>
+          <figcaption data-i18n="hero.photo">Մարինա Թորոսյան</figcaption>
+        </figure>
+      </div>
+      <a href="cuisine.html" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+      <p class="footer__tagline" data-i18n="footer.tagline">Պատրաստված սիրով՝ հայկական ավանդույթներով։</p>
+      <p class="footer__copy footer__music">♪ <span data-i18n="footer.music">Երաժշտություն՝</span> Gorgeouz Beats – Kamancha</p>
+      <p class="footer__copy">© <span id="year"></span> Marina's Kitchen</p>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Background music (from Marina's video), loops softly -->
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="script.js?v=42"></script>
+</body>
+</html>

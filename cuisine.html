@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Խոհանոց — Marina's Kitchen</title>
+  <meta name="description" content="Marina's Kitchen — հայկական ավանդական խոհանոց, բաղադրատոմսեր և տեսանյութեր Մարինայից։">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600&family=Noto+Serif+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body data-page="cuisine" class="page-inner">
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Marina's Kitchen">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Գլխավոր</a>
+        <a href="cuisine.html" class="nav__link" data-i18n="nav.cuisine">Խոհանոց</a>
+        <a href="about.html" class="nav__link" data-i18n="nav.about">Մարինայի մասին</a>
+        <a href="upcoming.html" class="nav__link" data-i18n="nav.upcoming">Շուտով</a>
+        <a href="contact.html" class="nav__link" data-i18n="nav.contact">Կապ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="music" id="musicBtn" type="button" aria-pressed="false" aria-label="Music">
+          <svg class="music__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z"/></svg>
+        </button>
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="hy" type="button">ՀԱՅ</button>
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Cuisine -->
+    <section class="section" id="cuisine">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow" data-i18n="cuisine.eyebrow">Մեր ճաշացանկը</p>
+          <h2 class="section__title" data-i18n="cuisine.title">Հայկական ավանդական խոհանոց</h2>
+          <div class="divider" aria-hidden="true"><span></span></div>
+          <p class="section__lead" data-i18n="cuisine.lead">Յուրաքանչյուր ճաշատեսակ պատմություն ունի՝ գյուղական սեղաններից մինչև տոնական հավաքույթներ։</p>
+        </div>
+
+        <div class="dishes">
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/dolma-1.jpg" width="900" height="1200" loading="lazy" style="object-position: center 10%" alt="Մարինան տոլման մատուցում է մածունով" data-i18n-alt="dish.dolma.alt1">
+              <img src="images/dolma-2.jpg" width="900" height="1201" loading="lazy" style="object-position: center 55%" alt="Տոլմա կաթսայում՝ սոխով" data-i18n-alt="dish.dolma.alt2">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.dolma.title">Տոլմա</h3>
+              <p data-i18n="dish.dolma.text">Խաղողի տերևներով փաթաթված մսի ու բրնձի նրբահամ համադրություն՝ մատուցված անուշաբույր սխտորով մածունով։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DeFFB8DgiSl/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/chmur-1.jpg" width="900" height="1519" loading="lazy" style="object-position: center 40%" alt="Մարինան թոնրում թխված կարտոֆիլով" data-i18n-alt="dish.chmur.alt1">
+              <img src="images/chmur-2.jpg" width="900" height="1200" loading="lazy" style="object-position: center 60%" alt="Կարտոֆիլի ճմուռ կաթսայում՝ լավաշի հետ" data-i18n-alt="dish.chmur.alt2">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.chmur.title">Կարտոֆիլի ճմուռ</h3>
+              <p data-i18n="dish.chmur.text">Թոնրում թխված կարտոֆիլ՝ ճզմված կարագով ու սոխով՝ հայկական խոհանոցի պարզ ու հարազատ համը։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DdZP2jZzna_/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/harissa-1.jpg" width="909" height="865" loading="lazy" style="object-position: center bottom" alt="Հարիսան լցվում է ափսեի մեջ՝ թոնրի կրակի վրա" data-i18n-alt="dish.harissa.alt1">
+              <img src="images/harissa-2.jpg" width="654" height="1280" loading="lazy" style="object-position: center 33%" alt="Ձավարը լցվում է ջրի մեջ" data-i18n-alt="dish.harissa.alt2">
+              <img src="images/harissa-3.jpg" width="909" height="865" loading="lazy" style="object-position: center 60%" alt="Եփած հավի միսը մանրացվում է" data-i18n-alt="dish.harissa.alt3">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+                <button type="button" aria-label="3"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.harissa.title">Հարիսա</h3>
+              <p data-i18n="dish.harissa.text">Ցորենից և հավի մսից պատրաստվող ավանդական հայկական ուտեստ՝ դանդաղ եփված մինչև միասեռ ու նուրբ զանգվածի վերածվելը։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DVB4zzZippW/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/mushroom-1.jpg" width="658" height="1280" loading="lazy" style="object-position: center 33%" alt="Դաշտից նոր հավաքված սունկ" data-i18n-alt="dish.mushroom.alt1">
+              <img src="images/mushroom-2.jpg" width="655" height="1280" loading="lazy" style="object-position: center 65%" alt="Մարինան սունկը շարում է թոնրի տաք քարին" data-i18n-alt="dish.mushroom.alt2">
+              <img src="images/mushroom-3.jpg" width="661" height="1280" loading="lazy" style="object-position: center 78%" alt="Թխված սունկ՝ սեփական հյութով" data-i18n-alt="dish.mushroom.alt3">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+                <button type="button" aria-label="3"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.mushroom.title">Սունկ</h3>
+              <p data-i18n="dish.mushroom.text">Թոնրի կրակի վրա պատրաստված թարմ դաշտային սունկ՝ իր բնական համով ու բույրով։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DeZhxkZALvt/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/borani-1.jpg" width="800" height="1067" loading="lazy" alt="Թաթար բորանի՝ մածունով և յուղով" data-i18n-alt="dish.borani.alt1">
+              <img src="images/borani-2.jpg" width="800" height="1120" loading="lazy" style="object-position: center 12%" alt="Մարինան՝ թաթար բորանիի ափսեով" data-i18n-alt="dish.borani.alt2">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.borani.title">Թաթար բորանի</h3>
+              <p data-i18n="dish.borani.text">Տնական խմորից պատրաստված ավանդական ուտեստ՝ մատուցված սխտորով մածունով և յուղով։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DdRfjLUASo0/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+          <article class="dish reveal">
+            <div class="dish__img dish__gallery" data-gallery>
+              <img class="is-active" src="images/lavash-1.jpg" width="658" height="1280" loading="lazy" style="object-position: center 50%" alt="Մարինան թարմ լավաշով՝ լեռների ֆոնին" data-i18n-alt="dish.lavash.alt1">
+              <img src="images/lavash-2.jpg" width="657" height="1280" loading="lazy" style="object-position: center 32%" alt="Լավաշի խմորը բացվում է գրտնակով" data-i18n-alt="dish.lavash.alt2">
+              <img src="images/lavash-3.jpg" width="658" height="1280" loading="lazy" style="object-position: center 12%" alt="Լավաշ թոնրի վրա" data-i18n-alt="dish.lavash.alt3">
+              <div class="dish__dots">
+                <button type="button" class="is-active" aria-label="1"></button>
+                <button type="button" aria-label="2"></button>
+                <button type="button" aria-label="3"></button>
+              </div>
+            </div>
+            <div class="dish__body">
+              <h3 class="dish__title" data-i18n="dish.lavash.title">Լավաշ</h3>
+              <p data-i18n="dish.lavash.text">Թոնրի կրակին թխված հայկական ավանդական հաց՝ հայկական մշակութային ժառանգության խորհրդանիշ և ՅՈՒՆԵՍԿՕ-ի ոչ նյութական մշակութային ժառանգության մաս։</p>
+              <!-- Recipe video: paste the link into data-video-url -->
+              <a class="dish__video" data-video-url="https://www.instagram.com/reel/DQMj0gQDCjc/" target="_blank" rel="noopener"></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+      <p class="footer__tagline" data-i18n="footer.tagline">Պատրաստված սիրով՝ հայկական ավանդույթներով։</p>
+      <p class="footer__copy footer__music">♪ <span data-i18n="footer.music">Երաժշտություն՝</span> Gorgeouz Beats – Kamancha</p>
+      <p class="footer__copy">© <span id="year"></span> Marina's Kitchen</p>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Background music (from Marina's video), loops softly -->
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="script.js?v=42"></script>
+</body>
+</html>

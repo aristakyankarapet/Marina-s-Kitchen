@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Carpet lattice: diamonds with an eight-point star -->
+  <g fill="none" stroke="#C9A45C" stroke-width="1">
+    <path d="M40 0 L80 40 L40 80 L0 40Z"/>
+    <path d="M40 22 L58 40 L40 58 L22 40Z"/>
+    <rect x="34" y="34" width="12" height="12"/>
+    <rect x="34" y="34" width="12" height="12" transform="rotate(45 40 40)"/>
+    <path d="M40 8 v6 M40 66 v6 M8 40 h6 M66 40 h6"/>
+  </g>
+</svg>

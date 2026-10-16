@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Կապ — Marina's Kitchen</title>
+  <meta name="description" content="Marina's Kitchen — հայկական ավանդական խոհանոց, բաղադրատոմսեր և տեսանյութեր Մարինայից։">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600&family=Noto+Serif+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body data-page="contact" class="page-inner">
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Marina's Kitchen">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Գլխավոր</a>
+        <a href="cuisine.html" class="nav__link" data-i18n="nav.cuisine">Խոհանոց</a>
+        <a href="about.html" class="nav__link" data-i18n="nav.about">Մարինայի մասին</a>
+        <a href="upcoming.html" class="nav__link" data-i18n="nav.upcoming">Շուտով</a>
+        <a href="contact.html" class="nav__link" data-i18n="nav.contact">Կապ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="music" id="musicBtn" type="button" aria-pressed="false" aria-label="Music">
+          <svg class="music__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z"/></svg>
+        </button>
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="hy" type="button">ՀԱՅ</button>
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Կապ</p>
+          <h2 class="section__title" data-i18n="contact.title">Կապվեք Մարինայի հետ</h2>
+          <div class="divider" aria-hidden="true"><span></span></div>
+          <p class="section__lead" data-i18n="contact.lead">Բնության գրկում՝ տարվա բոլոր եղանակներին։ Եկե՛ք միասին հունցենք, թխենք, համտեսենք ու բացահայտենք հայկական խոհանոցի կախարդանքը։ Ձեր տեղը մեր սեղանի շուրջ արդեն սպասում է ձեզ։</p>
+        </div>
+
+        <div class="contact">
+          <ul class="contact__info reveal">
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+              </span>
+              <span>
+                <span class="contact__label" data-i18n="contact.email">Էլ. փոստ</span>
+                <a href="mailto:torosyanm13@gmail.com">torosyanm13@gmail.com</a>
+              </span>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+              </span>
+              <span>
+                <span class="contact__label" data-i18n="contact.address">Հասցե</span>
+                <span data-i18n="contact.city">Հայաստան, Շիրակի հյուսիս</span>
+              </span>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+              </span>
+              <span>
+                <span class="contact__label">Instagram</span>
+                <a href="https://www.instagram.com/marina.torosyann/" target="_blank" rel="noopener">@marina.torosyann</a>
+              </span>
+            </li>
+          </ul>
+
+          <form class="form reveal" id="contactForm" novalidate>
+            <!-- Spam trap: hidden from people, bots fill it in -->
+            <input type="text" name="_honey" class="form__honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form__row">
+              <label class="form__field">
+                <span data-i18n="form.name">Անուն</span>
+                <input type="text" name="name" required autocomplete="name">
+              </label>
+              <label class="form__field">
+                <span data-i18n="form.email">Էլ. փոստ</span>
+                <input type="email" name="email" required autocomplete="email">
+              </label>
+            </div>
+            <label class="form__field">
+              <span data-i18n="form.message">Հաղորդագրություն</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary" data-i18n="form.send">Ուղարկել</button>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+      <p class="footer__tagline" data-i18n="footer.tagline">Պատրաստված սիրով՝ հայկական ավանդույթներով։</p>
+      <p class="footer__copy footer__music">♪ <span data-i18n="footer.music">Երաժշտություն՝</span> Gorgeouz Beats – Kamancha</p>
+      <p class="footer__copy">© <span id="year"></span> Marina's Kitchen</p>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Background music (from Marina's video), loops softly -->
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="script.js?v=42"></script>
+</body>
+</html>

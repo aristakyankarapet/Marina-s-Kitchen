@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Մարինայի մասին — Marina's Kitchen</title>
+  <meta name="description" content="Marina's Kitchen — հայկական ավանդական խոհանոց, բաղադրատոմսեր և տեսանյութեր Մարինայից։">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600&family=Noto+Serif+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body data-page="about" class="page-inner">
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Marina's Kitchen">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Գլխավոր</a>
+        <a href="cuisine.html" class="nav__link" data-i18n="nav.cuisine">Խոհանոց</a>
+        <a href="about.html" class="nav__link" data-i18n="nav.about">Մարինայի մասին</a>
+        <a href="upcoming.html" class="nav__link" data-i18n="nav.upcoming">Շուտով</a>
+        <a href="contact.html" class="nav__link" data-i18n="nav.contact">Կապ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="music" id="musicBtn" type="button" aria-pressed="false" aria-label="Music">
+          <svg class="music__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z"/></svg>
+        </button>
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang__btn is-active" data-lang="hy" type="button">ՀԱՅ</button>
+          <button class="lang__btn" data-lang="en" type="button">EN</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="section section--cream" id="about">
+      <div class="container about">
+        <div class="about__media reveal">
+          <div class="about__frame">
+            <img class="about__img" src="images/about-marina.jpg" width="1024" height="1280" loading="lazy" alt="Մարինան պատրաստում է լավաշ, թաթար բորանի, տոլմա և կարտոֆիլի ճմուռ" data-i18n-alt="about.photoAlt">
+          </div>
+        </div>
+        <div class="about__content reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Ծանոթացեք</p>
+          <h2 class="section__title" data-i18n="about.title">Մարինայի մասին</h2>
+          <div class="divider divider--left" aria-hidden="true"><span></span></div>
+          <p class="about__lead" data-i18n="about.lead">Մարինայի խոհանոցը․ համ, որ հիշողություններ է արթնացնում։</p>
+          <p data-i18n="about.p1">Ամեն ինչ սկսվել է տատիկի տան ջերմ մթնոլորտից, կիրակնօրյա ընտանեկան սեղանից ու այն բույրերից, որոնք մինչ օրս հարազատ հիշողություններ են արթնացնում։ Հենց այնտեղ Մարինան բացահայտեց խոհանոցի ամենակարևոր գաղտնիքը՝ իսկական համը ծնվում է սիրուց, հոգատարությունից և ավանդույթների հանդեպ ջերմ վերաբերմունքից։</p>
+          <p data-i18n="about.p2">Այսօր Մարինան իր խոհանոցում վերակենդանացնում է ընտանեկան բաղադրատոմսերը՝ պահպանելով դրանց հարազատ համն ու ավելացնելով ժամանակակից շունչ։ Յուրաքանչյուր ուտեստի մեջ մի փոքր հիշողություն կա, մի պտղունց ստեղծագործականություն և մեծ սեր՝ այն մարդկանց հանդեպ, որոնց համար պատրաստվում է։</p>
+          <p data-i18n="about.p3">Մարինայի խոհանոցը պարզապես բաղադրատոմսեր չեն։ Այն համերի, հիշողությունների և ընտանեկան ջերմության պատմություն է՝ ստեղծված ձեզ հետ կիսվելու համար։</p>
+          <ul class="stats">
+            <li class="stat">
+              <span class="stat__num" data-count="10">0</span><span class="stat__plus">+</span>
+              <span class="stat__label" data-i18n="about.stat1">տարվա փորձ</span>
+            </li>
+            <li class="stat">
+              <span class="stat__num" data-count="150">0</span><span class="stat__plus">+</span>
+              <span class="stat__label" data-i18n="about.stat2">բաղադրատոմս</span>
+            </li>
+            <li class="stat">
+              <span class="stat__num" data-count="300">0</span><span class="stat__plus">+</span>
+              <span class="stat__label" data-i18n="about.stat3">գոհ հյուր</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark" aria-hidden="true">M</span>
+        <span class="logo__text">Marina's Kitchen</span>
+      </a>
+      <p class="footer__tagline" data-i18n="footer.tagline">Պատրաստված սիրով՝ հայկական ավանդույթներով։</p>
+      <p class="footer__copy footer__music">♪ <span data-i18n="footer.music">Երաժշտություն՝</span> Gorgeouz Beats – Kamancha</p>
+      <p class="footer__copy">© <span id="year"></span> Marina's Kitchen</p>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Background music (from Marina's video), loops softly -->
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="script.js?v=42"></script>
+</body>
+</html>
