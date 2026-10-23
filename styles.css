@@ -635,6 +635,59 @@ p { margin: 0 0 16px; }
 .section__lead { color: var(--muted); margin: 0; }
 .section__lead--light { color: var(--light-muted); }
 
+/* ---------- Latest video (home) ---------- */
+
+.latest {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 64px;
+  align-items: center;
+}
+.latest__media {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.latest__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  transition: transform .8s var(--ease);
+}
+.latest__media:hover img { transform: scale(1.04); }
+.latest__play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 72px;
+  height: 72px;
+  margin: -36px 0 0 -36px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: rgba(63, 14, 18, .72);
+  transition: transform .5s var(--ease);
+}
+.latest__play::before {
+  content: "";
+  position: absolute;
+  left: 28px;
+  top: 22px;
+  border-style: solid;
+  border-width: 14px 0 14px 20px;
+  border-color: transparent transparent transparent var(--gold);
+}
+.latest__media:hover .latest__play { transform: scale(1.08); }
+.latest__body .section__lead { max-width: 32em; margin-bottom: 32px; }
+.latest__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 /* ---------- Dishes ---------- */
 
 .dishes {
@@ -1058,6 +1111,17 @@ p { margin: 0 0 16px; }
 }
 .footer__tagline { color: var(--light-muted); margin: 0; }
 .footer__copy { font-size: 14px; color: var(--light-muted); margin: 0; }
+.footer__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: var(--gold);
+  text-decoration: none;
+  transition: color .3s var(--ease);
+}
+.footer__social:hover { color: var(--light); }
+.footer__social svg { width: 20px; height: 20px; fill: currentColor; }
 
 /* ---------- Scroll reveal ---------- */
 
@@ -1123,6 +1187,8 @@ p { margin: 0 0 16px; }
   .about,
   .contact { grid-template-columns: 1fr; }
   .about__media { max-width: 440px; }
+  .latest { grid-template-columns: 1fr; gap: 32px; }
+  .latest__media { max-width: 440px; }
 }
 
 @media (max-width: 640px) {
@@ -1146,6 +1212,7 @@ p { margin: 0 0 16px; }
   .about__content p { text-align: left; }
   .hero__text { font-size: 16px; }
   .hero__buttons .btn { width: 100%; }
+  .latest__buttons .btn { width: 100%; }
 
   .dishes,
   .upcoming { grid-template-columns: 1fr; gap: 24px; }

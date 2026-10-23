@@ -98,6 +98,8 @@ const translations = {
     "form.fallback": "Բացվում է ձեր էլ. փոստը՝ նամակն արդեն պատրաստ է, մնում է սեղմել «Ուղարկել»։",
 
     "footer.tagline": "Պատրաստված սիրով՝ հայկական ավանդույթներով։",
+    "latest.eyebrow": "Նոր տեսանյութ",
+    "latest.watch": "Դիտել տեսանյութը",
     "footer.music": "Երաժշտություն՝"
   },
   en: {
@@ -198,6 +200,8 @@ const translations = {
     "form.fallback": "Opening your email app: the message is ready, just press Send.",
 
     "footer.tagline": "Made with love, rooted in Armenian tradition.",
+    "latest.eyebrow": "New video",
+    "latest.watch": "Watch the video",
     "footer.music": "Music:"
   }
 };
