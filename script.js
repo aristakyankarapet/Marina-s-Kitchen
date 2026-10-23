@@ -51,7 +51,7 @@ const translations = {
     "dish.lavash.alt3": "Լավաշ թոնրի վրա",
     "dish.ghapama.title": "Ղափամա",
     "dish.ghapama.text": "Դդում՝ լցոնված բրնձով, չրերով, ընկույզով և մեղրով։ Տոնական սեղանի զարդը։",
-    "dish.ghapama.alt1": "Մարինան դաշտում՝ ղափամայի լցոնով և դդումով",
+    "dish.ghapama.alt1": "Մարինան մեղր է լցնում դդումի մեջ",
     "dish.ghapama.alt2": "Չրեր և ընկույզ տապակի մեջ՝ թոնրի վրա",
     "dish.ghapama.alt3": "Պատրաստի ղափամա՝ բացված դդում բրնձով և չրերով",
 
@@ -151,7 +151,7 @@ const translations = {
     "dish.lavash.alt3": "Lavash over the tonir oven",
     "dish.ghapama.title": "Ghapama",
     "dish.ghapama.text": "Pumpkin stuffed with rice, dried fruits, nuts and honey. The jewel of festive tables.",
-    "dish.ghapama.alt1": "Marina in the field with the ghapama filling and a pumpkin",
+    "dish.ghapama.alt1": "Marina drizzling honey into the pumpkin",
     "dish.ghapama.alt2": "Dried fruits and nuts in a pan over the tonir",
     "dish.ghapama.alt3": "Finished ghapama: an opened pumpkin with rice and dried fruits",
 
