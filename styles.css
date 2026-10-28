@@ -18,8 +18,8 @@
   --light: #F6EEDF;
   --light-muted: #E3D3C2;
 
-  --font-body: "Noto Sans Armenian", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-head: "Noto Serif Armenian", Georgia, "Times New Roman", serif;
+  --font-body: "Noto Sans Armenian", "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: "Noto Serif Armenian", "Noto Serif", Georgia, "Times New Roman", serif;
 
   --radius: 4px;
   --ease: cubic-bezier(.22, .61, .36, 1);
@@ -1227,9 +1227,10 @@ p { margin: 0 0 16px; }
   .form .btn { justify-self: stretch; }
 }
 
-/* Narrow phones: drop the diamond mark so logo, music, language and menu fit */
-@media (max-width: 420px) {
-  .logo__mark { display: none; }
+/* Phones: the header logo shrinks to its diamond "M" mark so music, the three
+   language buttons and the menu fit (the full name stays in the footer) */
+@media (max-width: 480px) {
+  .header .logo__text { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
