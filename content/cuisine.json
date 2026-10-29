@@ -1,0 +1,286 @@
+{
+  "eyebrow": {
+    "hy": "Մեր ճաշացանկը",
+    "en": "Our menu",
+    "ru": "Наше меню"
+  },
+  "title": {
+    "hy": "Հայկական ավանդական խոհանոց",
+    "en": "Traditional Armenian Cuisine",
+    "ru": "Традиционная армянская кухня"
+  },
+  "lead": {
+    "hy": "Յուրաքանչյուր ճաշատեսակ պատմություն ունի՝ գյուղական սեղաններից մինչև տոնական հավաքույթներ։",
+    "en": "Every dish tells a story, from village tables to festive family gatherings.",
+    "ru": "У каждого блюда своя история — от деревенских столов до праздничных семейных застолий."
+  },
+  "dishes": [
+    {
+      "title": {
+        "hy": "Ղափամա",
+        "en": "Ghapama",
+        "ru": "Гапама"
+      },
+      "text": {
+        "hy": "Դդում՝ լցոնված բրնձով, չրերով, ընկույզով և մեղրով։ Տոնական սեղանի զարդը։",
+        "en": "Pumpkin stuffed with rice, dried fruits, nuts and honey. The jewel of festive tables.",
+        "ru": "Тыква, фаршированная рисом, сухофруктами, орехами и мёдом. Украшение праздничного стола."
+      },
+      "video": "https://www.instagram.com/p/Dew0a5RAscE/",
+      "photos": [
+        {
+          "image": "/images/ghapama-1.jpg",
+          "alt": {
+            "hy": "Մարինան մեղր է լցնում դդումի մեջ",
+            "en": "Marina drizzling honey into the pumpkin",
+            "ru": "Марина наливает мёд в тыкву"
+          },
+          "focus": 58
+        },
+        {
+          "image": "/images/ghapama-2.jpg",
+          "alt": {
+            "hy": "Չրեր և ընկույզ տապակի մեջ՝ թոնրի վրա",
+            "en": "Dried fruits and nuts in a pan over the tonir",
+            "ru": "Сухофрукты и орехи в сковороде над тониром"
+          },
+          "focus": 30
+        },
+        {
+          "image": "/images/ghapama-3.jpg",
+          "alt": {
+            "hy": "Պատրաստի ղափամա՝ բացված դդում բրնձով և չրերով",
+            "en": "Finished ghapama: an opened pumpkin with rice and dried fruits",
+            "ru": "Готовая гапама: раскрытая тыква с рисом и сухофруктами"
+          },
+          "focus": 40
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Տոլմա",
+        "en": "Dolma",
+        "ru": "Толма"
+      },
+      "text": {
+        "hy": "Խաղողի տերևներով փաթաթված մսի ու բրնձի նրբահամ համադրություն՝ մատուցված անուշաբույր սխտորով մածունով։",
+        "en": "A delicate blend of meat and rice wrapped in grape leaves, served with fragrant garlic yogurt.",
+        "ru": "Нежное сочетание мяса и риса в виноградных листьях, подаётся с ароматным чесночным мацуном."
+      },
+      "video": "https://www.instagram.com/reel/DeFFB8DgiSl/",
+      "photos": [
+        {
+          "image": "/images/dolma-1.jpg",
+          "alt": {
+            "hy": "Մարինան տոլման մատուցում է մածունով",
+            "en": "Marina serving dolma with yogurt",
+            "ru": "Марина подаёт толму с мацуном"
+          },
+          "focus": 10
+        },
+        {
+          "image": "/images/dolma-2.jpg",
+          "alt": {
+            "hy": "Տոլմա կաթսայում՝ սոխով",
+            "en": "Dolma in the pot with onion",
+            "ru": "Толма в кастрюле с луком"
+          },
+          "focus": 55
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Կարտոֆիլի ճմուռ",
+        "en": "Potato Chmur",
+        "ru": "Картофельный чмур"
+      },
+      "text": {
+        "hy": "Թոնրում թխված կարտոֆիլ՝ ճզմված կարագով ու սոխով՝ հայկական խոհանոցի պարզ ու հարազատ համը։",
+        "en": "Potatoes baked in the tonir and crushed with butter and onion: the simple, familiar taste of Armenian cuisine.",
+        "ru": "Картофель, запечённый в тонире и размятый со сливочным маслом и луком, — простой и родной вкус армянской кухни."
+      },
+      "video": "https://www.instagram.com/reel/DdZP2jZzna_/",
+      "photos": [
+        {
+          "image": "/images/chmur-1.jpg",
+          "alt": {
+            "hy": "Մարինան թոնրում թխված կարտոֆիլով",
+            "en": "Marina with potatoes baked in the tonir",
+            "ru": "Марина с картофелем, запечённым в тонире"
+          },
+          "focus": 40
+        },
+        {
+          "image": "/images/chmur-2.jpg",
+          "alt": {
+            "hy": "Կարտոֆիլի ճմուռ կաթսայում՝ լավաշի հետ",
+            "en": "Potato chmur in the pan with lavash",
+            "ru": "Картофельный чмур в сковороде с лавашом"
+          },
+          "focus": 60
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Հարիսա",
+        "en": "Harissa",
+        "ru": "Ариса"
+      },
+      "text": {
+        "hy": "Ցորենից և հավի մսից պատրաստվող ավանդական հայկական ուտեստ՝ դանդաղ եփված մինչև միասեռ ու նուրբ զանգվածի վերածվելը։",
+        "en": "A traditional Armenian dish of wheat and chicken, slow-cooked until it becomes smooth and tender.",
+        "ru": "Традиционное армянское блюдо из пшеницы и курицы, которое медленно томится до однородной нежной массы."
+      },
+      "video": "https://www.instagram.com/reel/DVB4zzZippW/",
+      "photos": [
+        {
+          "image": "/images/harissa-1.jpg",
+          "alt": {
+            "hy": "Հարիսան լցվում է ափսեի մեջ՝ թոնրի կրակի վրա",
+            "en": "Harissa ladled into a bowl over the tonir fire",
+            "ru": "Арису разливают в тарелку над огнём тонира"
+          },
+          "focus": 100
+        },
+        {
+          "image": "/images/harissa-2.jpg",
+          "alt": {
+            "hy": "Ձավարը լցվում է ջրի մեջ",
+            "en": "Wheat poured into water to soak",
+            "ru": "Пшеницу засыпают в воду"
+          },
+          "focus": 33
+        },
+        {
+          "image": "/images/harissa-3.jpg",
+          "alt": {
+            "hy": "Եփած հավի միսը մանրացվում է",
+            "en": "Cooked chicken being pulled apart",
+            "ru": "Отварную курицу разбирают на волокна"
+          },
+          "focus": 60
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Սունկ",
+        "en": "Mushrooms",
+        "ru": "Грибы"
+      },
+      "text": {
+        "hy": "Թոնրի կրակի վրա պատրաստված թարմ դաշտային սունկ՝ իր բնական համով ու բույրով։",
+        "en": "Fresh field mushrooms cooked over the fire of the tonir, with their natural taste and aroma.",
+        "ru": "Свежие полевые грибы, приготовленные на огне тонира, с их естественным вкусом и ароматом."
+      },
+      "video": "https://www.instagram.com/reel/DeZhxkZALvt/",
+      "photos": [
+        {
+          "image": "/images/mushroom-1.jpg",
+          "alt": {
+            "hy": "Դաշտից նոր հավաքված սունկ",
+            "en": "A freshly picked field mushroom",
+            "ru": "Только что собранный полевой гриб"
+          },
+          "focus": 33
+        },
+        {
+          "image": "/images/mushroom-2.jpg",
+          "alt": {
+            "hy": "Մարինան սունկը շարում է թոնրի տաք քարին",
+            "en": "Marina laying mushrooms on the hot tonir stone",
+            "ru": "Марина выкладывает грибы на горячий камень тонира"
+          },
+          "focus": 65
+        },
+        {
+          "image": "/images/mushroom-3.jpg",
+          "alt": {
+            "hy": "Թխված սունկ՝ սեփական հյութով",
+            "en": "A baked mushroom in its own juice",
+            "ru": "Запечённый гриб в собственном соку"
+          },
+          "focus": 78
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Թաթար բորանի",
+        "en": "Tatar Borani",
+        "ru": "Татар борани"
+      },
+      "text": {
+        "hy": "Տնական խմորից պատրաստված ավանդական ուտեստ՝ մատուցված սխտորով մածունով և յուղով։",
+        "en": "A traditional dish made from homemade dough, served with garlic yogurt and oil.",
+        "ru": "Традиционное блюдо из домашнего теста, подаётся с чесночным мацуном и маслом."
+      },
+      "video": "https://www.instagram.com/reel/DdRfjLUASo0/",
+      "photos": [
+        {
+          "image": "/images/borani-1.jpg",
+          "alt": {
+            "hy": "Թաթար բորանի՝ մածունով և յուղով",
+            "en": "Tatar borani with yogurt and oil",
+            "ru": "Татар борани с мацуном и маслом"
+          },
+          "focus": 50
+        },
+        {
+          "image": "/images/borani-2.jpg",
+          "alt": {
+            "hy": "Մարինան՝ թաթար բորանիի ափսեով",
+            "en": "Marina holding a bowl of tatar borani",
+            "ru": "Марина с тарелкой татар борани"
+          },
+          "focus": 12
+        }
+      ]
+    },
+    {
+      "title": {
+        "hy": "Լավաշ",
+        "en": "Lavash",
+        "ru": "Лаваш"
+      },
+      "text": {
+        "hy": "Թոնրի կրակին թխված հայկական ավանդական հաց՝ հայկական մշակութային ժառանգության խորհրդանիշ և ՅՈՒՆԵՍԿՕ-ի ոչ նյութական մշակութային ժառանգության մաս։",
+        "en": "Traditional Armenian bread baked over the fire of the tonir: a symbol of Armenian cultural heritage and part of UNESCO's Intangible Cultural Heritage.",
+        "ru": "Традиционный армянский хлеб, испечённый на огне тонира, — символ армянского культурного наследия и часть нематериального культурного наследия ЮНЕСКО."
+      },
+      "video": "https://www.instagram.com/reel/DQMj0gQDCjc/",
+      "photos": [
+        {
+          "image": "/images/lavash-1.jpg",
+          "alt": {
+            "hy": "Մարինան թարմ լավաշով՝ լեռների ֆոնին",
+            "en": "Marina with fresh lavash against the mountains",
+            "ru": "Марина со свежим лавашом на фоне гор"
+          },
+          "focus": 50
+        },
+        {
+          "image": "/images/lavash-2.jpg",
+          "alt": {
+            "hy": "Լավաշի խմորը բացվում է գրտնակով",
+            "en": "Lavash dough rolled out with a rolling pin",
+            "ru": "Тесто для лаваша раскатывают скалкой"
+          },
+          "focus": 32
+        },
+        {
+          "image": "/images/lavash-3.jpg",
+          "alt": {
+            "hy": "Լավաշ թոնրի վրա",
+            "en": "Lavash over the tonir oven",
+            "ru": "Лаваш над тониром"
+          },
+          "focus": 12
+        }
+      ]
+    }
+  ]
+}

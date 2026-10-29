@@ -65,31 +65,17 @@
       <div class="container about">
         <div class="about__media reveal">
           <div class="about__frame">
-            <img class="about__img" src="images/about-marina.jpg" width="1024" height="1280" loading="lazy" alt="Մարինան պատրաստում է լավաշ, թաթար բորանի, տոլմա և կարտոֆիլի ճմուռ" data-i18n-alt="about.photoAlt">
+            <img class="about__img" alt="" data-c-src="photo" data-c-alt="photoAlt">
           </div>
         </div>
         <div class="about__content reveal">
-          <p class="eyebrow" data-i18n="about.eyebrow">Ծանոթացեք</p>
-          <h2 class="section__title" data-i18n="about.title">Մարինայի մասին</h2>
+          <p class="eyebrow" data-c="eyebrow"></p>
+          <h2 class="section__title" data-c="title"></h2>
           <div class="divider divider--left" aria-hidden="true"><span></span></div>
-          <p class="about__lead" data-i18n="about.lead">Մարինայի խոհանոցը․ համ, որ հիշողություններ է արթնացնում։</p>
-          <p data-i18n="about.p1">Ամեն ինչ սկսվել է տատիկի տան ջերմ մթնոլորտից, կիրակնօրյա ընտանեկան սեղանից ու այն բույրերից, որոնք մինչ օրս հարազատ հիշողություններ են արթնացնում։ Հենց այնտեղ Մարինան բացահայտեց խոհանոցի ամենակարևոր գաղտնիքը՝ իսկական համը ծնվում է սիրուց, հոգատարությունից և ավանդույթների հանդեպ ջերմ վերաբերմունքից։</p>
-          <p data-i18n="about.p2">Այսօր Մարինան իր խոհանոցում վերակենդանացնում է ընտանեկան բաղադրատոմսերը՝ պահպանելով դրանց հարազատ համն ու ավելացնելով ժամանակակից շունչ։ Յուրաքանչյուր ուտեստի մեջ մի փոքր հիշողություն կա, մի պտղունց ստեղծագործականություն և մեծ սեր՝ այն մարդկանց հանդեպ, որոնց համար պատրաստվում է։</p>
-          <p data-i18n="about.p3">Մարինայի խոհանոցը պարզապես բաղադրատոմսեր չեն։ Այն համերի, հիշողությունների և ընտանեկան ջերմության պատմություն է՝ ստեղծված ձեզ հետ կիսվելու համար։</p>
-          <ul class="stats">
-            <li class="stat">
-              <span class="stat__num" data-count="10">0</span><span class="stat__plus">+</span>
-              <span class="stat__label" data-i18n="about.stat1">տարվա փորձ</span>
-            </li>
-            <li class="stat">
-              <span class="stat__num" data-count="150">0</span><span class="stat__plus">+</span>
-              <span class="stat__label" data-i18n="about.stat2">բաղադրատոմս</span>
-            </li>
-            <li class="stat">
-              <span class="stat__num" data-count="300">0</span><span class="stat__plus">+</span>
-              <span class="stat__label" data-i18n="about.stat3">գոհ հյուր</span>
-            </li>
-          </ul>
+          <p class="about__lead" data-c="lead"></p>
+          <!-- Paragraphs and numbers are built from content/about.json -->
+          <div id="aboutText"></div>
+          <ul class="stats" id="stats"></ul>
         </div>
       </div>
     </section>
@@ -113,6 +99,6 @@
   <!-- Background music (from Marina's video), loops softly -->
   <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
 
-  <script src="script.js?v=46"></script>
+  <script src="script.js?v=47"></script>
 </body>
 </html>

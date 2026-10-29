@@ -68,41 +68,41 @@
       <div class="container hero__inner">
         <div class="hero__content">
           <div class="hero__emblem hero__anim" aria-hidden="true"></div>
-          <p class="eyebrow eyebrow--light hero__anim" data-i18n="hero.eyebrow">Հայկական ավանդական խոհանոց</p>
+          <p class="eyebrow eyebrow--light hero__anim" data-c="hero.eyebrow"></p>
           <h1 class="hero__title hero__anim">
-            <span data-i18n="hero.title1">Տան հարազատ համը՝</span><br>
-            <em data-i18n="hero.title2">թոնրի դարավոր ավանդույթով, հայկական հյուրընկալությամբ ու սիրով։</em>
+            <span data-c="hero.title1"></span><br>
+            <em data-c="hero.title2"></em>
           </h1>
           <div class="hero__buttons hero__anim">
-            <a href="cuisine.html" class="btn btn--gold" data-i18n="hero.cta1">Դիտել ճաշատեսակները</a>
-            <a href="upcoming.html" class="btn btn--outline" data-i18n="hero.cta2">Ինչ ենք պատրաստելու</a>
+            <a href="cuisine.html" class="btn btn--gold" data-c="hero.button1"></a>
+            <a href="upcoming.html" class="btn btn--outline" data-c="hero.button2"></a>
           </div>
         </div>
         <figure class="hero__media">
           <div class="hero__frame">
-            <img src="images/marina.jpg?v=2" width="1000" height="1336" alt="Մարինան՝ հայկական գյուղի և լեռների ֆոնին" data-i18n-alt="hero.photoAlt">
+            <img alt="" data-c-src="hero.photo" data-c-alt="hero.photoAlt">
           </div>
-          <figcaption data-i18n="hero.photo">Մարինա Թորոսյան</figcaption>
+          <figcaption data-c="hero.caption"></figcaption>
         </figure>
       </div>
       <a href="cuisine.html" class="hero__scroll" aria-label="Scroll down"><span></span></a>
     </section>
 
-    <!-- Latest video: swap the photo, texts and links when Marina posts a new one -->
+    <!-- Latest video: Marina edits it in content/home.json (Pages CMS) -->
     <section class="section" id="latest">
       <div class="container latest">
-        <a class="latest__media reveal" href="https://www.instagram.com/p/Dew0a5RAscE/" target="_blank" rel="noopener" aria-label="Instagram">
-          <img src="images/ghapama-3.jpg" width="899" height="1750" loading="lazy" alt="Պատրաստի ղափամա՝ բացված դդում բրնձով և չրերով" data-i18n-alt="dish.ghapama.alt3">
+        <a class="latest__media reveal" data-c-href="latest.link" target="_blank" rel="noopener" aria-label="Instagram">
+          <img loading="lazy" alt="" data-c-src="latest.photo" data-c-alt="latest.photoAlt">
           <span class="latest__play" aria-hidden="true"></span>
         </a>
         <div class="latest__body reveal">
-          <p class="eyebrow" data-i18n="latest.eyebrow">Նոր տեսանյութ</p>
-          <h2 class="section__title" data-i18n="dish.ghapama.title">Ղափամա</h2>
+          <p class="eyebrow" data-c="latest.eyebrow"></p>
+          <h2 class="section__title" data-c="latest.title"></h2>
           <div class="divider divider--left" aria-hidden="true"><span></span></div>
-          <p class="section__lead" data-i18n="dish.ghapama.text">Դդում՝ լցոնված բրնձով, չրերով, ընկույզով և մեղրով։ Տոնական սեղանի զարդը։</p>
+          <p class="section__lead" data-c="latest.text"></p>
           <div class="latest__buttons">
-            <a class="btn btn--primary" href="https://www.instagram.com/p/Dew0a5RAscE/" target="_blank" rel="noopener" data-i18n="latest.watch">Դիտել տեսանյութը</a>
-            <a class="btn btn--gold" href="cuisine.html" data-i18n="hero.cta1">Դիտել ճաշատեսակները</a>
+            <a class="btn btn--primary" data-c-href="latest.link" target="_blank" rel="noopener" data-c="latest.button"></a>
+            <a class="btn btn--gold" href="cuisine.html" data-c="hero.button1"></a>
           </div>
         </div>
       </div>
@@ -127,6 +127,6 @@
   <!-- Background music (from Marina's video), loops softly -->
   <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
 
-  <script src="script.js?v=46"></script>
+  <script src="script.js?v=47"></script>
 </body>
 </html>

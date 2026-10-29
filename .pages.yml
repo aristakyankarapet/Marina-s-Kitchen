@@ -1,0 +1,152 @@
+# Pages CMS (app.pagescms.org): the admin panel where Marina edits the site.
+# Every page's content lives in content/<page>.json; photos go to images/.
+# Saving in the panel commits to GitHub, and the server picks it up in ~2 min.
+
+media:
+  input: images
+  output: /images
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+settings:
+  content:
+    merge: true
+
+components:
+  line:
+    type: object
+    fields:
+      - { name: hy, label: Հայերեն, type: string }
+      - { name: en, label: English, type: string }
+      - { name: ru, label: Русский, type: string }
+  paragraph:
+    type: object
+    fields:
+      - { name: hy, label: Հայերեն, type: text }
+      - { name: en, label: English, type: text }
+      - { name: ru, label: Русский, type: text }
+  alt:
+    type: object
+    label: Նկարի նկարագրություն
+    description: Կարճ նկարագրություն՝ Google-ի և չտեսնող այցելուների համար
+    fields:
+      - { name: hy, label: Հայերեն, type: string }
+      - { name: en, label: English, type: string }
+      - { name: ru, label: Русский, type: string }
+
+content:
+  - name: home
+    label: Գլխավոր էջ
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: hero
+        label: Վերևի բաժին
+        type: object
+        fields:
+          - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+          - { name: title1, label: Մեծ վերնագիր (1-ին տող), component: line }
+          - { name: title2, label: "Մեծ վերնագիր (2-րդ մաս, ոսկեգույն)", component: paragraph }
+          - { name: button1, label: Առաջին կոճակ, component: line }
+          - { name: button2, label: Երկրորդ կոճակ, component: line }
+          - { name: photo, label: Նկար, type: image, description: Ուղղահայաց նկար (3×4) }
+          - { name: photoAlt, component: alt }
+          - { name: caption, label: Նկարի տակի գրություն, component: line }
+      - name: latest
+        label: Նոր տեսանյութ
+        type: object
+        fields:
+          - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+          - { name: title, label: Վերնագիր, component: line }
+          - { name: text, label: Տեքստ, component: paragraph }
+          - { name: link, label: Instagram-ի հղում, type: string, description: "Օրինակ՝ https://www.instagram.com/reel/..." }
+          - { name: button, label: Կոճակի գրություն, component: line }
+          - { name: photo, label: Նկար, type: image, description: Ուղղահայաց նկար (4×5) }
+          - { name: photoAlt, component: alt }
+
+  - name: cuisine
+    label: Խոհանոց (ուտեստներ)
+    type: file
+    path: content/cuisine.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+      - { name: title, label: Վերնագիր, component: line }
+      - { name: lead, label: Ներածական տեքստ, component: paragraph }
+      - name: dishes
+        label: Ուտեստներ
+        description: Ուտեստները կայքում երևում են այս հերթականությամբ
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Անուն, component: line }
+          - { name: text, label: Նկարագրություն, component: paragraph }
+          - { name: video, label: Պատրաստման տեսանյութի հղում, type: string, description: "Թողեք դատարկ, եթե տեսանյութը դեռ չկա" }
+          - name: photos
+            label: Նկարներ
+            description: Մի քանի նկարի դեպքում դրանք հերթով փոխվում են
+            type: object
+            list: true
+            fields:
+              - { name: image, label: Նկար, type: image }
+              - { name: alt, component: alt }
+              - { name: focus, label: Որ մասը երևա, type: number, description: "0 = նկարի վերևը, 50 = մեջտեղը, 100 = ներքևը" }
+
+  - name: about
+    label: Մարինայի մասին
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+      - { name: title, label: Վերնագիր, component: line }
+      - { name: photo, label: Նկար, type: image, description: Ուղղահայաց նկար (4×5) }
+      - { name: photoAlt, component: alt }
+      - { name: lead, label: Ընդգծված նախադասություն, component: paragraph }
+      - { name: paragraphs, label: Պարբերություններ, component: paragraph, list: true }
+      - name: stats
+        label: Թվեր
+        type: object
+        list: true
+        fields:
+          - { name: number, label: Թիվ, type: number }
+          - { name: label, label: Գրություն, component: line }
+
+  - name: upcoming
+    label: Շուտով
+    type: file
+    path: content/upcoming.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+      - { name: title, label: Վերնագիր, component: line }
+      - { name: lead, label: Ներածական տեքստ, component: paragraph }
+      - name: dishes
+        label: Շուտով պատրաստվող ուտեստներ
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Անուն, component: line }
+          - { name: text, label: Նկարագրություն, component: paragraph }
+          - { name: photo, label: Նկար, type: image }
+          - { name: photoAlt, component: alt }
+      - { name: suggestions, label: «Քո առաջարկը» քարտերի քանակը, type: number }
+      - name: suggestion
+        label: «Քո առաջարկը» քարտ
+        type: object
+        fields:
+          - { name: title, label: Վերնագիր, component: line }
+          - { name: text, label: Տեքստ, component: paragraph }
+          - { name: button, label: Կոճակի գրություն, component: line }
+
+  - name: contact
+    label: Կապ
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Փոքր վերնագիր, component: line }
+      - { name: title, label: Վերնագիր, component: line }
+      - { name: lead, label: Ներածական տեքստ, component: paragraph }
+      - { name: address, label: Հասցե, component: line }

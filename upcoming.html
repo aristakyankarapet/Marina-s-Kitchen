@@ -60,53 +60,18 @@
   </header>
 
   <main>
-    <!-- Coming soon: dishes Marina will cook next (03-05 are decided by a vote) -->
+    <!-- Coming soon: dishes Marina will cook next, then suggestion cards -->
     <section class="section section--dark" id="upcoming">
       <div class="container">
         <div class="section__head reveal">
-          <p class="eyebrow eyebrow--light" data-i18n="upcoming.eyebrow">Շուտով մեր խոհանոցում</p>
-          <h2 class="section__title section__title--light" data-i18n="upcoming.title">Ինչ ենք պատրաստելու</h2>
+          <p class="eyebrow eyebrow--light" data-c="eyebrow"></p>
+          <h2 class="section__title section__title--light" data-c="title"></h2>
           <div class="divider" aria-hidden="true"><span></span></div>
-          <p class="section__lead section__lead--light" data-i18n="upcoming.lead">Ուտեստներ, որոնք շուտով կպատրաստենք միասին։</p>
+          <p class="section__lead section__lead--light" data-c="lead"></p>
         </div>
 
-        <div class="upcoming">
-          <article class="upcoming__card upcoming__card--photo reveal">
-            <span class="upcoming__num">01</span>
-            <img class="upcoming__img" src="images/panrkhash.jpg" width="900" height="1200" loading="lazy" alt="Պանրխաշ՝ կավե ամանում, տապակած սոխով" data-i18n-alt="upcoming.panrkhash.alt">
-            <h3 class="upcoming__title" data-i18n="upcoming.panrkhash.title">Պանրխաշ</h3>
-            <p data-i18n="upcoming.panrkhash.text">Լավաշով, պանրով ու կարագով պատրաստվող ջերմ ու հյութալի ավանդական ուտեստ։</p>
-            <span class="upcoming__tag" data-i18n="upcoming.soon">Շուտով</span>
-          </article>
-          <article class="upcoming__card upcoming__card--photo reveal">
-            <span class="upcoming__num">02</span>
-            <img class="upcoming__img" src="images/zhingyalov.jpg?v=2" width="900" height="900" loading="lazy" alt="Ժինգյալով հաց՝ լցոնված թարմ կանաչիով" data-i18n-alt="upcoming.zhingyalov.alt">
-            <h3 class="upcoming__title" data-i18n="upcoming.zhingyalov.title">Ժինգյալով հաց</h3>
-            <p data-i18n="upcoming.zhingyalov.text">Բարակ հաց՝ լցոնված տասնյակ տեսակի թարմ կանաչիով։</p>
-            <span class="upcoming__tag" data-i18n="upcoming.soon">Շուտով</span>
-          </article>
-          <article class="upcoming__card upcoming__card--vote reveal">
-            <span class="upcoming__num">03</span>
-            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
-            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
-            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
-            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
-          </article>
-          <article class="upcoming__card upcoming__card--vote reveal">
-            <span class="upcoming__num">04</span>
-            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
-            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
-            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
-            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
-          </article>
-          <article class="upcoming__card upcoming__card--vote reveal">
-            <span class="upcoming__num">05</span>
-            <div class="upcoming__emblem upcoming__emblem--vote" aria-hidden="true">?</div>
-            <h3 class="upcoming__title" data-i18n="upcoming.vote.title">Քո առաջարկը</h3>
-            <p data-i18n="upcoming.vote.text">Հաղթող ուտեստն ընտրելու եք դուք։</p>
-            <a class="upcoming__suggest" href="contact.html?suggest" data-i18n="upcoming.vote.cta">Գրել առաջարկը</a>
-          </article>
-        </div>
+        <!-- Cards are built from content/upcoming.json -->
+        <div class="upcoming" id="upcomingCards"></div>
       </div>
     </section>
   </main>
@@ -129,6 +94,6 @@
   <!-- Background music (from Marina's video), loops softly -->
   <audio id="bgMusic" src="audio/music.mp3" loop preload="auto"></audio>
 
-  <script src="script.js?v=46"></script>
+  <script src="script.js?v=47"></script>
 </body>
 </html>

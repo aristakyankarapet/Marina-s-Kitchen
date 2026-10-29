@@ -1,0 +1,22 @@
+{
+  "eyebrow": {
+    "hy": "Կապ",
+    "en": "Contact",
+    "ru": "Контакты"
+  },
+  "title": {
+    "hy": "Կապվեք Մարինայի հետ",
+    "en": "Get in touch with Marina",
+    "ru": "Свяжитесь с Мариной"
+  },
+  "lead": {
+    "hy": "Բնության գրկում՝ տարվա բոլոր եղանակներին։ Եկե՛ք միասին հունցենք, թխենք, համտեսենք ու բացահայտենք հայկական խոհանոցի կախարդանքը։ Ձեր տեղը մեր սեղանի շուրջ արդեն սպասում է ձեզ։",
+    "en": "In the heart of nature, in every season of the year. Come knead, bake and taste with us, and discover the magic of Armenian cuisine. Your seat at our table is already waiting for you.",
+    "ru": "На лоне природы — в любое время года. Приходите вместе месить, печь, пробовать и открывать для себя волшебство армянской кухни. Ваше место за нашим столом уже ждёт вас."
+  },
+  "address": {
+    "hy": "Հայաստան, Շիրակի հյուսիս",
+    "en": "Northern Shirak, Armenia",
+    "ru": "Армения, север Ширака"
+  }
+}

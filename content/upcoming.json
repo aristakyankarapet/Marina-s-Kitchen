@@ -1,0 +1,73 @@
+{
+  "eyebrow": {
+    "hy": "Շուտով մեր խոհանոցում",
+    "en": "Coming soon to our kitchen",
+    "ru": "Скоро на нашей кухне"
+  },
+  "title": {
+    "hy": "Ինչ ենք պատրաստելու",
+    "en": "What we'll cook next",
+    "ru": "Что приготовим"
+  },
+  "lead": {
+    "hy": "Ուտեստներ, որոնք շուտով կպատրաստենք միասին։",
+    "en": "Dishes we'll be cooking together soon.",
+    "ru": "Блюда, которые мы скоро приготовим вместе."
+  },
+  "dishes": [
+    {
+      "photo": "/images/panrkhash.jpg",
+      "photoAlt": {
+        "hy": "Պանրխաշ՝ կավե ամանում, տապակած սոխով",
+        "en": "Panrkhash in a clay dish, topped with fried onions",
+        "ru": "Панрхаш в глиняной посуде с жареным луком"
+      },
+      "title": {
+        "hy": "Պանրխաշ",
+        "en": "Panrkhash",
+        "ru": "Панрхаш"
+      },
+      "text": {
+        "hy": "Լավաշով, պանրով ու կարագով պատրաստվող ջերմ ու հյութալի ավանդական ուտեստ։",
+        "en": "A warm, hearty traditional dish made with lavash, cheese and butter.",
+        "ru": "Тёплое и сытное традиционное блюдо из лаваша, сыра и сливочного масла."
+      }
+    },
+    {
+      "photo": "/images/zhingyalov.jpg",
+      "photoAlt": {
+        "hy": "Ժինգյալով հաց՝ լցոնված թարմ կանաչիով",
+        "en": "Zhingyalov hats filled with fresh greens",
+        "ru": "Жингялов хац с начинкой из свежей зелени"
+      },
+      "title": {
+        "hy": "Ժինգյալով հաց",
+        "en": "Zhingyalov Hats",
+        "ru": "Жингялов хац"
+      },
+      "text": {
+        "hy": "Բարակ հաց՝ լցոնված տասնյակ տեսակի թարմ կանաչիով։",
+        "en": "Thin flatbread filled with dozens of kinds of fresh greens.",
+        "ru": "Тонкая лепёшка с начинкой из десятков видов свежей зелени."
+      }
+    }
+  ],
+  "suggestions": 3,
+  "suggestion": {
+    "title": {
+      "hy": "Քո առաջարկը",
+      "en": "Your suggestion",
+      "ru": "Ваше предложение"
+    },
+    "text": {
+      "hy": "Հաղթող ուտեստն ընտրելու եք դուք։",
+      "en": "You will choose the winning dish.",
+      "ru": "Блюдо-победителя выберете вы."
+    },
+    "button": {
+      "hy": "Գրել առաջարկը",
+      "en": "Suggest a dish",
+      "ru": "Предложить блюдо"
+    }
+  }
+}

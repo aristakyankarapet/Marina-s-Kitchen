@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "eyebrow": {
+      "hy": "Հայկական ավանդական խոհանոց",
+      "en": "Traditional Armenian cuisine",
+      "ru": "Традиционная армянская кухня"
+    },
+    "title1": {
+      "hy": "Տան հարազատ համը՝",
+      "en": "The familiar taste of home,",
+      "ru": "Родной вкус дома —"
+    },
+    "title2": {
+      "hy": "թոնրի դարավոր ավանդույթով, հայկական հյուրընկալությամբ ու սիրով։",
+      "en": "with the age-old tradition of the tonir, Armenian hospitality and love.",
+      "ru": "с вековой традицией тонира, армянским гостеприимством и любовью."
+    },
+    "button1": {
+      "hy": "Դիտել ճաշատեսակները",
+      "en": "Explore the dishes",
+      "ru": "Смотреть блюда"
+    },
+    "button2": {
+      "hy": "Ինչ ենք պատրաստելու",
+      "en": "What's next",
+      "ru": "Что приготовим"
+    },
+    "photo": "/images/marina.jpg",
+    "photoAlt": {
+      "hy": "Մարինան՝ հայկական գյուղի և լեռների ֆոնին",
+      "en": "Marina against an Armenian village and mountains",
+      "ru": "Марина на фоне армянской деревни и гор"
+    },
+    "caption": {
+      "hy": "Մարինա Թորոսյան",
+      "en": "Marina Torosyan",
+      "ru": "Марина Торосян"
+    }
+  },
+  "latest": {
+    "eyebrow": {
+      "hy": "Նոր տեսանյութ",
+      "en": "New video",
+      "ru": "Новое видео"
+    },
+    "title": {
+      "hy": "Ղափամա",
+      "en": "Ghapama",
+      "ru": "Гапама"
+    },
+    "text": {
+      "hy": "Դդում՝ լցոնված բրնձով, չրերով, ընկույզով և մեղրով։ Տոնական սեղանի զարդը։",
+      "en": "Pumpkin stuffed with rice, dried fruits, nuts and honey. The jewel of festive tables.",
+      "ru": "Тыква, фаршированная рисом, сухофруктами, орехами и мёдом. Украшение праздничного стола."
+    },
+    "link": "https://www.instagram.com/p/Dew0a5RAscE/",
+    "button": {
+      "hy": "Դիտել տեսանյութը",
+      "en": "Watch the video",
+      "ru": "Смотреть видео"
+    },
+    "photo": "/images/ghapama-3.jpg",
+    "photoAlt": {
+      "hy": "Պատրաստի ղափամա՝ բացված դդում բրնձով և չրերով",
+      "en": "Finished ghapama: an opened pumpkin with rice and dried fruits",
+      "ru": "Готовая гапама: раскрытая тыква с рисом и сухофруктами"
+    }
+  }
+}

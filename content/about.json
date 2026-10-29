@@ -1,0 +1,66 @@
+{
+  "eyebrow": {
+    "hy": "Ծանոթացեք",
+    "en": "Meet the chef",
+    "ru": "Знакомьтесь"
+  },
+  "title": {
+    "hy": "Մարինայի մասին",
+    "en": "About Marina",
+    "ru": "О Марине"
+  },
+  "photo": "/images/about-marina.jpg",
+  "photoAlt": {
+    "hy": "Մարինան պատրաստում է լավաշ, թաթար բորանի, տոլմա և կարտոֆիլի ճմուռ",
+    "en": "Marina making lavash, tatar borani, dolma and potato chmur",
+    "ru": "Марина готовит лаваш, татар борани, толму и картофельный чмур"
+  },
+  "lead": {
+    "hy": "Մարինայի խոհանոցը․ համ, որ հիշողություններ է արթնացնում։",
+    "en": "Marina's Kitchen: flavours that awaken memories.",
+    "ru": "Кухня Марины: вкус, который пробуждает воспоминания."
+  },
+  "paragraphs": [
+    {
+      "hy": "Ամեն ինչ սկսվել է տատիկի տան ջերմ մթնոլորտից, կիրակնօրյա ընտանեկան սեղանից ու այն բույրերից, որոնք մինչ օրս հարազատ հիշողություններ են արթնացնում։ Հենց այնտեղ Մարինան բացահայտեց խոհանոցի ամենակարևոր գաղտնիքը՝ իսկական համը ծնվում է սիրուց, հոգատարությունից և ավանդույթների հանդեպ ջերմ վերաբերմունքից։",
+      "en": "It all began in the warmth of her grandmother's home, at the Sunday family table, among aromas that still bring back cherished memories. It was there that Marina discovered the most important secret of cooking: true flavour is born from love, care and a deep respect for tradition.",
+      "ru": "Всё началось в тёплой атмосфере бабушкиного дома, за воскресным семейным столом, среди ароматов, которые до сих пор пробуждают родные воспоминания. Именно там Марина открыла главный секрет кухни: настоящий вкус рождается из любви, заботы и бережного отношения к традициям."
+    },
+    {
+      "hy": "Այսօր Մարինան իր խոհանոցում վերակենդանացնում է ընտանեկան բաղադրատոմսերը՝ պահպանելով դրանց հարազատ համն ու ավելացնելով ժամանակակից շունչ։ Յուրաքանչյուր ուտեստի մեջ մի փոքր հիշողություն կա, մի պտղունց ստեղծագործականություն և մեծ սեր՝ այն մարդկանց հանդեպ, որոնց համար պատրաստվում է։",
+      "en": "Today Marina brings family recipes back to life in her kitchen, keeping their familiar taste while adding a modern touch. Every dish holds a little memory, a pinch of creativity and a great deal of love for the people it is made for.",
+      "ru": "Сегодня Марина возрождает на своей кухне семейные рецепты, сохраняя их родной вкус и добавляя современное дыхание. В каждом блюде — немного воспоминаний, щепотка творчества и много любви к тем, для кого оно готовится."
+    },
+    {
+      "hy": "Մարինայի խոհանոցը պարզապես բաղադրատոմսեր չեն։ Այն համերի, հիշողությունների և ընտանեկան ջերմության պատմություն է՝ ստեղծված ձեզ հետ կիսվելու համար։",
+      "en": "Marina's Kitchen is more than a collection of recipes. It is a story of flavours, memories and family warmth, created to share with you.",
+      "ru": "Кухня Марины — это не просто рецепты. Это история вкусов, воспоминаний и семейного тепла, созданная, чтобы поделиться ею с вами."
+    }
+  ],
+  "stats": [
+    {
+      "number": 10,
+      "label": {
+        "hy": "տարվա փորձ",
+        "en": "years of experience",
+        "ru": "лет опыта"
+      }
+    },
+    {
+      "number": 150,
+      "label": {
+        "hy": "բաղադրատոմս",
+        "en": "recipes",
+        "ru": "рецептов"
+      }
+    },
+    {
+      "number": 300,
+      "label": {
+        "hy": "գոհ հյուր",
+        "en": "happy guests",
+        "ru": "довольных гостей"
+      }
+    }
+  ]
+}
